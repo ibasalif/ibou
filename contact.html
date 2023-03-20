@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://kit.fontawesome.com/b7686cdf22.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container ">
+              <!-- <a class="navbar-brand" href="#">T DESK
+              </a> -->
+              <div class="row">
+                <div class="col-lg-3 col-md-4 col-6 py-3">
+                <div class="logo">
+                 
+                    <a href="#">
+                        <span>T</span>DESK
+                    </a>
+                </div>
+                </div>
+                
+    
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold text-bg-primary" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  fw-bold" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  fw-bold" href="knowledge.html"> Knowledge base</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link btn-btn-light fw-bold" href="about.html"> About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link btn-btn-light fw-bold" href="contact.html"> Contact</a>
+                  </li>
+    
+                </ul>
+                <!-- <form class="  login">
+                    <i class="bi bi-box-arrow-in-right"></i>
+    
+                  <a class="btn btn-outline menu fw-bold">login</a>
+                </form> -->
+                <button type="button" class="btn btn-light bv " data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap"><i class="fa-solid fa-right-to-bracket"></i>  login</button>
+               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                 <div class="modal-dialog">
+                   <div class="modal-content">
+                    
+                   <div class="modal-header">
+                     <h1 class="modal-title fs-5" id="exampleModalLabel">Customer Login</h1>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                   </div>
+                   <div class="modal-body">
+                     <div class="modal-body">
+                       <form>
+                         <div class="mb-3">
+                           <div class="input-group flex-nowrap ">
+                             <span class="input-group-text p-3" id="addon-wrapping"><i class="fa-solid fa-user text-secondary"></i></span>
+                             <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                           </div>
+                         </div>
+                         <div class="mb-3">
+                           
+                           <div class="input-group flex-nowrap">
+                             <span class="input-group-text p-3" id="addon-wrapping"><i class="fa-solid fa-lock text-secondary"></i></span>
+                             <input type="text" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="addon-wrapping">
+                           </div>
+                         </div>
+                       </form>
+                     </div>
+                    <div class="container">
+                     <div class="row">
+                    <div class="form-group row">
+                     <div class="col-6">
+                         <button type="submit" class="btn btn-login bg-primary bn btn-block btn-lg">Login</button>
+                     </div>
+                     <div class="col-6 text-right">
+                         <a href="#" class="font-s-14 bn1">Forgot Password ?</a>
+                     </div>
+                  </div>
+                 </div>
+               </div>   
+                  <hr data-content="OR" class="divider">
+                    <div class="container my-5">
+                     <div class="row">
+                    <div class="form-group row">
+                     <div class="col-6">
+                         <button type="button" class="btn btn-social-facebook face text-bg-primary"><i class="fab fa-facebook-f" aria-hidden="true"></i> Facebook</button>
+                     </div>
+                     <div class="col-6">
+                         <button type="button" class="btn btn-social-google goo text-bg-danger"><i class="fab fa-google-plus-g" aria-hidden="true"></i>Google</button>
+                     </div>
+                 </div>
+               </div>
+             </div>
+               <div class="row">
+                 <div class="modal-footer foot justify-content-center">
+                   Don't Have account <a href="">Create New</a>
+               </div>
+             </div>
+           </div>
+            </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+              </div>
+            </div>
+          </nav>
+        </section>
+
+
+        <section class="">
+        <div class="header-dash p-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6">
+                        <div class="page-title">
+                            <h2>Contact</h2>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="search-form">
+                            <form>
+                                <!-- <i class="far fa-search icon"></i> -->
+                                <input name="search" type="search" placeholder="Search ...">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Page-Content">
+            <div class="container">
+                <div class="contact-form">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-8 offset-xl-3 offset-lg-2">
+                            <h2 class="font-w-600">Got Any Questions</h2>
+                            <p class="text-muted">
+                                Lorem ipsum dolor sit adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquat aliquip.
+                            </p>
+                            <form>
+                                <div class="form-group">
+                                    <label for="contact-name">Name</label>
+                                    <input id="contact-name" class="form-control" name="contact-name" type="text" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-email">Email</label>
+                                    <input id="contact-email" class="form-control" name="contact-email" type="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-subject">Subject</label>
+                                    <input id="contact-subject" class="form-control" name="contact-subject" type="text" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-message">Message</label>
+                                    <textarea id="contact-message" class="form-control" rows="5" name="contact-message" required></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-submit" type="submit">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+      <div class="footer">
+        <div class="container">
+          <div class="menu">
+            <ul class="list-unstyled">
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+              <li>
+                <a href="#">TERMS</a>
+              </li>
+              <li>
+                <a href="#">Changelog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+          <div class="copyright">
+            Made by
+            <a href="https://www.tatwerat.com">Tatwerat</a>
+            0 2020 AH Tickets PTY Ltd
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+        
+            
+        </body>
+        </html>
